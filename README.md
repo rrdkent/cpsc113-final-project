@@ -19,7 +19,11 @@ or, should you want to run it with reolading automagically
 Objectives:
 
 * Write a web application in a language of your choice.
+    Javascript, Node.js, Express
+
 * It should listen for HTTP requests
+    
+    
 * A GET request to the url `/foo` should respond with an HTTP response with:
   - content type "text/plain"
   - status 200
