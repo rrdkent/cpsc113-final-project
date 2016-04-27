@@ -8,9 +8,16 @@ or, should you want to run it with reolading automagically
     
     nodemon index.js
     
+## How to Install this code:
 
+Set up the environment.  Make sure you have Node.js, Express, NPM, and nodemon installed.
 
+Clone this git repo (or fork it, if you feel like an adventure): https://github.com/rrdkent/cpsc113-final-project.git
 
+Run (See above)
+    nodemon index.js
+
+Voila!
 
 
 
@@ -38,6 +45,10 @@ Objectives:
   - You should push your git repo to git.yale.edu and make it shared with the following users: klj39 jdh93 yk363 jsb92 hz246
 
   - One of the git commit messages should have the string "woot" in it
-  - It must have a README showing how to install an run it
+        Done
+
+  - It must have a README showing how to install and run it
+
+
 * The application should be deployed to Heroku
 * You should submit your git.yale.edu repo URL and your Heroku URL
