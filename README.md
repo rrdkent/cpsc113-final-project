@@ -1,3 +1,21 @@
+## How to run this code:
+
+Run with 
+
+    node index.jsb92
+    
+or, should you want to run it with reolading automagically
+    
+    nodemon index.js
+    
+
+
+
+
+
+
+
+
 Objectives:
 
 * Write a web application in a language of your choice.
