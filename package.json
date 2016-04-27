@@ -1,0 +1,22 @@
+{
+  "name": "cpsc113-final-node",
+  "version": "1.0.0",
+  "description": "my final assignment for class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrdkent/cpsc113-final-project.git"
+  },
+  "author": "DK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrdkent/cpsc113-final-project/issues"
+  },
+  "homepage": "https://github.com/rrdkent/cpsc113-final-project#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
