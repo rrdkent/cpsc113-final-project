@@ -19,6 +19,10 @@ Run (See above)
 
 Voila!
 
+## Dan's Wiki cause his short term memory capacity is like one bite:
+
+https://docs.google.com/document/d/1HHyGqsd7EVhaVSc0z3rTtwUmXiJsmK-g2KfI73RqOtc/edit?usp=sharing
+
 
 ## New Objectives:
 
@@ -26,7 +30,7 @@ Basic Functionality
 
 The first three tests are simple in nature, and test your ability to write basic endpoint functionality.
 
-A GET request to '/' produces an HTTP 200 response with content 'Hello World!' somewhere
+A GET request to '/' produces an HTTP 200 response with content 'Hello World!' somewhere ::Done
 A GET request to ''/robots.txt' produces a HTTP 200 response with Content-Type 'text/plain; charset=utf-8'"
 A GET request to '/mrw/class-is-done.gif' 301 or 302 redirects to the reaction gif of your choice
 Blog Post Functionality
