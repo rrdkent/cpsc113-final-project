@@ -24,7 +24,7 @@ app.get('/robots.txt', function (req, res) {
 });
 
 
-app.get('/mrw/semester-ends.gif', function (req, res) {
+app.get('/mrw/class-is-done.gif', function (req, res) {
   res.redirect('https://i.imgur.com/pXjrQ.gif');
   res.sendStatus(302)
 });

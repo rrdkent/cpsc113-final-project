@@ -31,8 +31,9 @@ Basic Functionality
 The first three tests are simple in nature, and test your ability to write basic endpoint functionality.
 
 A GET request to '/' produces an HTTP 200 response with content 'Hello World!' somewhere ::Done
-A GET request to ''/robots.txt' produces a HTTP 200 response with Content-Type 'text/plain; charset=utf-8'"
-A GET request to '/mrw/class-is-done.gif' 301 or 302 redirects to the reaction gif of your choice
+A GET request to ''/robots.txt' produces a HTTP 200 response with Content-Type 'text/plain; charset=utf-8'" ::Done
+A GET request to '/mrw/class-is-done.gif' 301 or 302 redirects to the reaction gif of your choice ::Done
+
 Blog Post Functionality
 
 Next, we want to mimic some functionality of a very minimal blog. We'll have you develop a few functions for creating a post, displaying a post, and deleting posts. Note that there is no need to have user accounts!
