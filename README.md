@@ -34,9 +34,10 @@ Voila!
   - content type "text/plain"
   - status 200
   - content that contains the string "woot"
+  - DONE!
  
 
-* A GET request to `/mrw/semester-ends.gif` should 302 redirect to `https://i.imgur.com/pXjrQ.gif`
+* A GET request to `/mrw/semester-ends.gif` should 302 redirect to `https://i.imgur.com/pXjrQ.gif` - DONE!
 
 
 * A GET request to `/` should respond with  status 200 and content-type text/html

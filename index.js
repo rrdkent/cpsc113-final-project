@@ -16,3 +16,7 @@ app.get('/foo', function (req, res) {
   res.sendStatus(200)
 });
 
+app.get('/mrw/semester-ends.gif', function (req, res) {
+  res.redirect('https://i.imgur.com/pXjrQ.gif');
+  res.sendStatus(302)
+});
