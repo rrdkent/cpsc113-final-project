@@ -9,3 +9,10 @@ app.get('/', function (req, res) {
 app.listen(process.env.PORT, function () {
   console.log('Example app listening on port ' + process.env.PORT);
 });
+
+
+app.get('/foo', function (req, res) {
+  res.send('woot');
+  res.sendStatus(200)
+});
+
