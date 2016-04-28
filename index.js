@@ -28,3 +28,8 @@ app.get('/mrw/class-is-done.gif', function (req, res) {
   res.redirect('https://i.imgur.com/pXjrQ.gif');
   res.sendStatus(302)
 });
+
+
+app.use(function(req, res, next) {
+  res.status(404).send('Sorry cant find that!');
+});
