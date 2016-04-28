@@ -20,10 +20,38 @@ Run (See above)
 Voila!
 
 
+## New Objectives:
+
+Basic Functionality
+
+The first three tests are simple in nature, and test your ability to write basic endpoint functionality.
+
+A GET request to '/' produces an HTTP 200 response with content 'Hello World!' somewhere
+A GET request to ''/robots.txt' produces a HTTP 200 response with Content-Type 'text/plain; charset=utf-8'"
+A GET request to '/mrw/class-is-done.gif' 301 or 302 redirects to the reaction gif of your choice
+Blog Post Functionality
+
+Next, we want to mimic some functionality of a very minimal blog. We'll have you develop a few functions for creating a post, displaying a post, and deleting posts. Note that there is no need to have user accounts!
+
+The way that users can view posts is by visiting /posts/:id, where :id starts at 0 and increments as a new post is created. So the first post created can be accessed via /posts/0 and the second can be accessed via /posts/1. If a post does not exist yet, visiting this page should return a 404 error.
+
+New posts can be created from a form on the homepage.
+
+The test script first checks to make sure that no posts exist. It then tests to make sure that new posts can be created and that the content can be rendered. Finally it tries to delete the created posts and tests that functionality.
+
+The specific tests for the blog are as follows:
+
+There should be no posts at first (checking '/posts/0' returns 404 status)
+There should be no posts at first (checking '/posts/1' returns 404 status)
+A POST request to '/posts/new' with form data containing a 'text' field creates a new post with id 0 and redirects to '/posts/0'
+A GET request to /posts/0 contains the post content that was submitted and status code 200
+A POST request to '/posts/new' with form data containing a 'text' field creates a new post with id 1 and redirects to '/posts/1
+A GET request to /posts/1 contains the post content that was submitted and status code 200
+A DELETE request to '/posts/delete' deletes all existing posts and responses w/ 200 status code
+There should be no more posts (checking '/posts/0' returns 404 status)
 
 
-
-## Objectives:
+## OLD Objectives from Kyle's E-mail:
 
 * Write a web application in a language of your choice: My choice is Javascript, Node.js, Express
 
