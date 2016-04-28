@@ -11,10 +11,18 @@ app.listen(process.env.PORT, function () {
 });
 
 
+// Source for the res.SendStatus: https://github.com/expressjs/express/issues/2269
+
 app.get('/foo', function (req, res) {
   res.send('woot');
   res.sendStatus(200)
 });
+
+app.get('/robots.txt', function (req, res) {
+  res.send('text/plain; charset=utf-8');
+  res.sendStatus(200)
+});
+
 
 app.get('/mrw/semester-ends.gif', function (req, res) {
   res.redirect('https://i.imgur.com/pXjrQ.gif');
