@@ -46,14 +46,14 @@ The test script first checks to make sure that no posts exist. It then tests to 
 
 The specific tests for the blog are as follows:
 
-There should be no posts at first (checking '/posts/0' returns 404 status)
-There should be no posts at first (checking '/posts/1' returns 404 status)
+There should be no posts at first (checking '/posts/0' returns 404 status)  ::Technically Done...
+There should be no posts at first (checking '/posts/1' returns 404 status)  ::Technically Done...
 A POST request to '/posts/new' with form data containing a 'text' field creates a new post with id 0 and redirects to '/posts/0'
 A GET request to /posts/0 contains the post content that was submitted and status code 200
 A POST request to '/posts/new' with form data containing a 'text' field creates a new post with id 1 and redirects to '/posts/1
 A GET request to /posts/1 contains the post content that was submitted and status code 200
-A DELETE request to '/posts/delete' deletes all existing posts and responses w/ 200 status code
-There should be no more posts (checking '/posts/0' returns 404 status)
+A DELETE request to '/posts/delete' deletes all existing posts and responses w/ 200 status code :: Techincally Done...
+There should be no more posts (checking '/posts/0' returns 404 status) :: Technically Done...
 
 
 ## OLD Objectives from Kyle's E-mail:
