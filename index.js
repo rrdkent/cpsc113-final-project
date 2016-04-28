@@ -11,24 +11,23 @@ app.listen(process.env.PORT, function () {
 });
 
 
-// Source for the res.SendStatus: https://github.com/expressjs/express/issues/2269
-
 app.get('/foo', function (req, res) {
   res.send('woot');
   res.sendStatus(200)
 });
 
 app.get('/robots.txt', function (req, res) {
-  res.send('text/plain; charset=utf-8');
-  res.sendStatus(200)
+  res.status(200).send('text/plain; charset=utf-8');
 });
 
 
 app.get('/mrw/class-is-done.gif', function (req, res) {
-  res.redirect('https://i.imgur.com/pXjrQ.gif');
-  res.sendStatus(302)
+  res.status(302).redirect('https://i.imgur.com/pXjrQ.gif');
 });
 
+app.get('/posts/delete', function (req, res) {
+  res.status(302).send('Deleted!');
+});
 
 app.use(function(req, res, next) {
   res.status(404).send('Sorry cant find that!');
